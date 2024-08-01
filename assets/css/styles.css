@@ -257,20 +257,21 @@ a {
 
 /* Features */
 .features {
-    margin: 130px 0;
+    margin-top: 130px;
 }
 
-.features .content-block {
+.content-block-ok {
     width: 591px;
+    line-height: 1.78;
 }
 
-.features .title {
+.content-block-ok .title {
     color: #767E7E;
     font-size: 1.2rem;
     font-weight: 700;
 }
 
-.features .heading.lv2 {
+.content-block-ok .heading.lv2 {
     margin-top: 18px;
     color: #0D1111;
     font-size: 4.2rem;
@@ -278,8 +279,8 @@ a {
     line-height: 1.33; 
 }
 
-.features .content-block .desc {
-    margin-top: 18px;
+.content-block-ok .desc {
+    padding-top: 18px;
     color: #767E7E;
     font-size: 1.8rem;
 }
@@ -315,4 +316,143 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.69; 
+}
+
+/* Courses */
+.courses {
+    margin-top: 130px;
+}
+
+.courses .content-block-ok {
+    width: 100%;
+}
+
+.courses .content-block-ok .desc {
+    width: 525px;
+}
+
+.courses .row {
+    display: flex;
+    align-items: center;
+}
+
+.courses .row .link {
+    margin-left: auto;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.list-courses {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.list-courses  .item {
+    position: relative;
+    width: 33.33%;
+}
+
+.list-courses  .item .image {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+}
+
+.list-courses  .item .content-item {
+    position: absolute;
+    bottom: -124px;
+    left: 17px;
+    width: 325px;
+    height: 195px;
+    padding: 18px 0 25px 29px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.list-courses  .item .content-item .heading.lv3 {
+    color: #0D1111;
+    font-size: 2.2rem;
+}
+
+.list-courses  .item .content-item .desc {
+    color: #767E7E;
+    font-size: 1.6rem;
+}
+
+.list-courses  .item .content-item .desc.mt16 {
+    margin-top: 16px;
+    line-height: 1.76;
+}
+
+.list-courses  .item .content-item .desc strong {
+    margin-left: 3px;
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.list-courses  .item .content-item .desc.mt6 {
+    margin-top: 6px;
+}
+
+.list-courses  .item .content-item .desc.desc-2 {
+    color: #9DA6A5;
+    font-size: 1.4rem;
+}
+
+
+.list-courses  .item .content-item  .info{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.list-courses  .item .content-item  .info .desc::before {
+    position: relative;
+    top: -3px;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.list-courses  .item .content-item  .info .desc {
+    margin-left: 10px;
+}
+
+/* Registrant */
+.registrant {
+    margin-top: 265px;
+}
+
+.registrant .row {
+    padding: 0 154px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registrant .row .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registrant .count {
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.registrant .desc {
+    margin-top: 11px;   
+    color: #767E7E;
+    font-size: 1.8rem;
 }
