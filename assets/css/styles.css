@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color : #1EBFC1;
+}
+
+/* Common */
+.main-content {
+    width: 1170px;
+    /* max-width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-left: 24px;
+    padding: 0 41px;
+    line-height: 68px;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    background: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    position: sticky;
+    top: -40px;
+    padding: 40px 0 0 0;
+    background: orange;
+    z-index: 1;
+}
+
+.header  .row-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.header .list {
+    display: flex;
+    margin-left: 235px;
+}
+
+.header .list  .item {
+    padding: 0 19px;
+    color: #2F3A3B;
+    font-size: 1.6rem;
+    font-style: normal;
+}
+
+.header .action {
+    margin-left: auto;
+}
+
+.header .btn-sign-up {
+    padding: 0 23px;
+    line-height: 48px;
+    font-size: 1.6rem;
+    border: 1px solid var(--primary-color);
+}
+
+.header .btn-sign-in {
+    color: #494949;
+    font-size: 1.6rem;
+}
+
+
+/* Hero */
+.hero {
+    margin-top: 38px;
+}
+
+.hero .row-hero {
+    display: flex;
+}
+
+.hero .content-block {
+    margin-top: 143px;
+    width: 39%;
+}
+
+.hero .content-block .desc {
+    color: #767E7E;
+    font-size: 1.4rem;
+}
+
+.hero .content-block .heading {
+    margin-top: 18px;
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16; 
+}
+
+.hero .content-block .desc-1 {
+    margin-top: 46px;
+    color: #9DA6A5;
+    font-size: 1.8rem;
+    line-height: 1.78; 
+}
+
+.hero .content-block .row-action {
+    display: flex;
+    margin-top: 52px;
+}
+
+.hero .content-block .cta-btn {
+    border-radius: 14px;
+}
+
+.hero .content-block .watch-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    border-radius: 999px;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .media-block {
+    margin: 50px 0 0 71px;
+    padding-left: 65px;
+    width: 54%;
+}
+
+.hero .media-block .parent {
+    position: relative;
+    width: 576px;
+    height: 631px;
+}
+
+.hero .media-block .img-media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .media-block .item {
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .media-block .item-1 {
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    display: flex;
+    align-items: center;
+    padding: 17px 25px;
+    width: 157px;
+    height: 75px;
+    border-radius: 18px;
+    background: #FEFEFD;
+}
+
+.hero .media-block .item-1 p {
+    margin-left: 16px;
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .media-block .item-2 {
+    position: absolute;
+    bottom: 46px;
+    left: -65px;
+    padding: 16px 25px 23px;
+    text-align: center;
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.hero .media-block .item-2 .desc {
+    margin-bottom: 16px;
+}
+
+.hero .media-block .item-2 img {
+    gap: 12px;
+}
+
+.hero .media-block .item-3 {
+    position: absolute;
+    bottom: 41px;
+    right: 45px;
+    width: 207px;
+    height: 90px;
+    padding: 17px 35px;
+    border-radius: 24px;
+    background: #FEFEFD;
+}
+
+.hero .media-block .item-3 .desc {
+    color: #0D1111;
+    font-size: 1rem;
+    font-weight: 500;
+    }
+
+.hero .media-block .item-3 .list-avatar {
+    display: flex;
+    margin: 8px 0 0 7px;
+}
+
+.hero .media-block .item-3 .avatar {
+    width: 33px;
+    height: 33px;
+    margin-left: -7px;
+}
+
+.hero .media-block .item-3 .avatar:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 500;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
+
+.hero .media-block .item-3 .avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
