@@ -44,6 +44,13 @@ a {
     text-decoration: none;
 }
 
+.heading {
+    color: #0D1111;
+    font-weight: 700;
+} 
+
+
+
 /* Header */
 .header {
     position: sticky;
@@ -107,11 +114,9 @@ a {
     font-size: 1.4rem;
 }
 
-.hero .content-block .heading {
+.hero .content-block .heading.lv1 {
     margin-top: 18px;
-    color: #0D1111;
     font-size: 6.2rem;
-    font-weight: 700;
     line-height: 1.16; 
 }
 
@@ -144,7 +149,7 @@ a {
 }
 
 .hero .media-block {
-    margin: 50px 0 0 71px;
+    margin: 50px 0 79px 71px;
     padding-left: 65px;
     width: 54%;
 }
@@ -250,3 +255,64 @@ a {
     border-radius: 50%;
 }
 
+/* Features */
+.features {
+    margin: 130px 0;
+}
+
+.features .content-block {
+    width: 591px;
+}
+
+.features .title {
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .heading.lv2 {
+    margin-top: 18px;
+    color: #0D1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33; 
+}
+
+.features .content-block .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+}
+
+.features .list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .list .item:nth-of-type(1) {
+    width: 168px;
+}
+
+.features .list .item:nth-of-type(2) {
+    width: 223px;
+}
+
+.features .list .item:nth-of-type(3 ) {
+    width: 224px;
+}
+
+.features .item .name {
+    margin-top: 26px;
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features .item .desc {
+    margin-top: 16px;
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69; 
+}
