@@ -176,14 +176,27 @@ a {
     left: -40px;
     display: flex;
     align-items: center;
-    padding: 17px 25px;
+    padding: 17px 25px 0;
     width: 157px;
     height: 75px;
     border-radius: 18px;
     background: #FEFEFD;
 }
 
+.hero .media-block .item-1 .parent-img {
+    position: relative;
+    width: fit-content;
+}
+
+.hero .media-block .item-1 .book-gach {
+    position: relative;
+    bottom: 25px;
+    left: 4px;
+}
+
 .hero .media-block .item-1 p {
+    position: relative;
+    top: -7px;
     margin-left: 16px;
     color: #0D1111;
     font-size: 1rem;
