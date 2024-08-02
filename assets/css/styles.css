@@ -605,3 +605,63 @@ a {
     height: 68px;
     margin-left: 410px;
 }
+
+/* Footer */
+.footer {
+    padding-top: 131px;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .image {
+    width: 23%;
+}
+
+.footer .list {
+    display: flex;
+    width: 77%;
+    margin-left: auto;
+}
+
+.footer .item {
+    width: calc(100% / 4);
+}
+
+.footer .item .name {
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .item ul {
+    margin-top: 25px;
+}
+
+.footer .item ul li {
+    margin-bottom: 18px;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer .item ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .item ul i {
+    margin-right: 9px;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    color: #0B120B;
+}
+
+.footer .copyright {
+    margin: 80px 0 50px 0;
+    text-align: center;
+    color: #B0B5B4;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
