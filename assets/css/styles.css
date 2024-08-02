@@ -359,6 +359,7 @@ a {
     width: 100%;
     height: 393px;
     object-fit: cover;
+    opacity: 0.35;
 }
 
 .list-courses  .item .content-item {
@@ -455,4 +456,121 @@ a {
     margin-top: 11px;   
     color: #767E7E;
     font-size: 1.8rem;
+}
+
+/* Messages */
+.messages {
+    margin-top: 264px;
+}
+
+.messages .row {
+    display: flex;
+}
+
+.content-messages {
+    width: 36%;
+    margin: 37px 72px 37px 0;
+}
+
+.content-messages .message {
+    margin-top: 27px;
+    color: #5D6564;
+    font-size: 3.2rem;
+    line-height: 1.5; 
+}
+
+.content-messages .name {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    color: #767E7E;
+    font-size: 1.6rem;
+}
+
+.content-messages .name::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.content-messages .name strong {
+    color: #070707;
+    font-weight: 500;
+}
+
+.content-messages .row-action {
+    display: flex;
+    gap: 30px;
+}
+
+.content-messages .row-action  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.avatars-messages {
+    position: relative;
+    display: flex;
+    width: 679px;
+}
+
+.avatars-messages .image {
+    border-radius: 50%;
+}
+
+.avatars-messages .lv1 {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;  
+}
+
+.avatars-messages .lv2 {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+}
+
+.avatars-messages .img-2 {
+    top: 0;
+    right: 443px;
+}
+
+.avatars-messages .img-3 {
+    top: 19px;
+    right: 0;
+}
+
+
+.avatars-messages .lv3 {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+}
+
+.avatars-messages .img-4 {
+    bottom: 29px;
+    right: 32px;
+}
+
+
+.avatars-messages .img-5 {
+    bottom: 0;
+    right: 389px;
+}
+
+
+.avatars-messages .img-6 {
+    bottom: 145px;
+    left: 0;
 }
